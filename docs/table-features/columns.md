@@ -29,6 +29,7 @@ The Action Column is a dedicated column to display Row Actions such as [Buttons]
 To include an Action Column, just add a call to `Column::action()` in your Component's `columns()` method.
 
 Typically, the Action Column is the last column in your Table, however may add this column as many times as you want and at any desired position.
+If you deal with export, by default Action Column are not included but the method [`Column::visibleInExport()`](/table-component/component-columns.html#visibleinexport) can be used if you need them in your exported file.
 
 Example:
 
