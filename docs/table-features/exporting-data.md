@@ -364,6 +364,23 @@ ID|Dish|Price
 
 ---
 
+### stripTags()
+
+If you're using HTML when [formatting your data](/table-component/data-source-fields.html#formatting-data-examples), this allow to automatically strip HTML tags from file content when exporting, default to `false`.
+
+| Parameters             | Description               |
+|------------------------|---------------------------|
+| (boolean) $value       | Strip tags when exporting |
+
+Example:
+
+```php
+PowerGrid::exportable('my-export-file')
+    ->stripTags(true),
+```
+
+---
+
 ### csvDelimiter()
 
 See the [csvSeparator()](/table-features/exporting-data.html#csvseparator) example.
