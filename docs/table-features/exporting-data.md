@@ -66,6 +66,8 @@ Sometimes, it may be necessary to omit certain Columns when exporting data but s
 
 To implement this scenario, you should use the method [`Column::visibleInExport()`](/table-component/component-columns.html#visibleinexport) to control whether the column will be included in the export file and the method [`Column::hidden()`](/table-component/component-columns.html#hidden) to hide the column in the grid.
 
+By default, [Action Column](/table-features/columns.html#action-column) are not included in export, the method [`Column::visibleInExport()`](/table-component/component-columns.html#visibleinexport) will allow you to add them if you need.
+
 Using these two methods, you can create a column with [formatted data](/table-component/data-source-fields.html#formatting-data-examples), displayed in the grid but hidden in export, and a column with raw data hidden in the grid but included in the exported file.
 
 Example:
