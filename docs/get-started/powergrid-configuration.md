@@ -332,10 +332,10 @@ import flatpickr from "flatpickr"; // [!code ++]
 
 Next, we need to load Flatpickr CSS.
 
-Add the following code to your project's `resources/js/app.css` file.
+Add the following code to your project's `resources/css/app.css` file.
 
 ```css
-/* resources/js/app.css */
+/* resources/css/app.css */
 
 @import "flatpickr/dist/flatpickr.min.css"; // [!code ++]
 ```
